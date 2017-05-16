@@ -55,3 +55,5 @@ module "kinesis" {
   kinesis_name_var     = "gps-stream"
   retention_period_var = 24
 }
+
+#added information to branch
