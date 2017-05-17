@@ -56,4 +56,24 @@ module "kinesis" {
   retention_period_var = 24
 }
 
+
+
+
+
+
+
+resource "aws_instance" "example" {
+  ami           = "ami-2757f631"
+  instance_type = "t2.micro"
+}
+
+
+
+
+
+
+
+
+
+
 #added information to branch
